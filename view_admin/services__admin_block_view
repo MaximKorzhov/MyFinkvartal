@@ -1,0 +1,19 @@
+	<div class="portfolioBox"> 												
+		<input class="hide" id="{!ID!}" type="checkbox" />
+		<label for="{!ID!}"><h2>Дата размещения: {!DATE!}</h2></label>
+		<div>
+			<p>Имя заявителя: {!NAME!}</p>					
+			<p>Адрес проживания: {!ADDRESS!}</p>
+			<p>Телефон: {!PHONE!}</p>					
+			<p>E-mail: {!EMAIL!}</p>					
+			<p>Текст заявки: {!TEXT!} </p>								
+			<form method="post" action="edit_services.php">				
+				<input class="hide" id="1{!ID!}" type="checkbox" />
+				<label for="1{!ID!}"><h2>Удалить</h2></label>
+				<div>
+					<input type="submit" name = "submit_delete" value="Удаление заявки из базы">
+					<input type="hidden" name = "action" value="{!ID!}"></p>												
+				</div>
+			</form> 
+		</div> 
+	</div>

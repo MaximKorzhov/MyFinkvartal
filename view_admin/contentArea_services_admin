@@ -1,0 +1,16 @@
+		<div id="primaryContent">			
+
+			<h2>Заявки</h2>
+			
+			{!services admin!}								
+
+		</div><!-- End primaryContent -->
+		
+		<div id="secondaryContent">
+			<h3>Адрес:</h3>
+				<h4>Дом 23 <br/> Дер. Луполово</h4>
+			<h3>Телефон:</h3>
+				<h4>8-921-788-77-81</h4>
+			<h3>E-mail:</h3>
+				<h4>nordkapital@yandex.ru</h4>							
+		</div><!-- End secondaryContent -->

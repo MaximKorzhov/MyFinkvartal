@@ -1,0 +1,15 @@
+	<div class="portfolioBox">
+		<p>{!DATE!}</p>
+		<img src="img/{!IMAGE!}" />
+		<input class="hide" id="{!ID!}" type="checkbox" />
+		<label for="{!ID!}"><h2>{!TITLE!}</h2></label>
+		<div>
+			<p>{!TEXT!}</p>
+			<form method="post" action="edit_site.php">
+			<input type="submit" name = "submit_delete" value="Удалить">
+			<input type="hidden" name = "action" value="{!ID!}"></p>		
+			<input type="submit" name = "submit_edit" value="Редактировать">
+			<input type="hidden" name = "action" value="{!ID!}"></p>
+			</form>
+		</div>
+	</div>

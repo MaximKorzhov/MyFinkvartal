@@ -1,0 +1,13 @@
+	<div class="portfolioBox">
+		<input class="hide" id="{!ID!}" type="checkbox" />
+		<label for="{!ID!}"><h2>{!TITLE!}</h2></label>
+		<div>
+			<p><a href="/img/{!IMAGE!}" target="_blank">Нажмите сюда для просмотра</a></p>
+			<form method="post" action="edit_disclosure.php">			
+			<input type="submit" name = "submit_delete" value="Удалить">
+			<input type="hidden" name = "action" value="{!ID!}"></p>		
+			<input type="submit" name = "submit_edit" value="Редактировать">
+			<input type="hidden" name = "action" value="{!ID!}"></p>
+			</form>
+		</div>
+	</div>
