@@ -1,0 +1,29 @@
+		<div id="primaryContent">			
+
+			<h2>Форма для заявки</h2>			
+
+			<form action="services_input.php" id="contact" method="post" >            
+				<fieldset>
+					<label>Ваши ФИО <em>*</em></label>
+						<input type="text" name="name" size="24" placeholder="Иванов Иван Иванович"/><br />
+					<label>Точный адрес <em>*</em></label>					
+						<input type="text" name="address" size="24" placeholder="Науки дом 73 к. 2 кв 45"/><br />
+					<label>Ваш телефон <em>*</em></label>
+						<input type="text" name="phone" size="24" placeholder="89522849531"/><br />
+					<label>E-mail <em>*</em></label>
+						<input type="text" name="email" size="24" /><br />					
+					<label>Ваше сообщение <em></em></label>
+						<textarea type="text" name="text" cols="60" rows="10"></textarea><br />
+					<button type="submit">Отправить</button>
+				</fieldset>
+			</form>
+		</div><!-- End primaryContent -->
+		
+		<div id="secondaryContent">
+			<h3>Адрес:</h3>
+				<h4>Дом 23 к. 1, дом 23 к. 2<br/> Дер. Лупполово</h4>
+			<h3>Телефон:</h3>
+				<h4>8-921-788-77-81</h4>
+			<h3>E-mail:</h3>
+				<h4>nordkapital@yandex.ru</h4>							
+		</div><!-- End secondaryContent -->

@@ -1,0 +1,8 @@
+<div class="portfolioBox">
+	<input class="hide" id="{!ID!}" type="checkbox" />
+	<label for="{!ID!}"><h2>{!TITLE!}</h2></label>
+	<div>
+		<object><embed src="img/{!IMAGE!}" width="525" height="400" /></object>
+		<p><a href="img/{!IMAGE!}" target="_blank">Читать полностью</a></p>
+	</div>
+</div>

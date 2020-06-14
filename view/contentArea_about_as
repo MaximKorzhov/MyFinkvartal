@@ -1,0 +1,18 @@
+		<div id="primaryContent">			
+
+			<h2>О нашей компании</h2>
+			
+			<p>Управляющая компания "Финские кварталы" (далее УК), под управлением ООО "Норд - Капитал" работает в сфере ЖКХ и занимается ремонтно - эксплуатационным обслуживанием жилых многоквартирных домов в Ленинградской области.</p>
+			<p>УК ведёт активную работу по улучшению обслуживания граждан, и старается в полной мере предоставить услуги жителям обслуживаемых домов.</p>
+			<p>УК проводит работу по благоустройству прилегающих территорий и зон отдыха, тем самым улучшая быт и комфорт жителей.</p>			
+			<p>УК сотрудничает с организациями - поставщиками энергоносителей и старается обеспечить комфортное проживание и бесперебойную работу холодного и горячего водоснабжения, электроэнергии и тепла.</p>
+			<p>УК и в далнейшем будет делать всё возможное для улучшения жизни в обслуживаемых домах.</p>
+				
+		</div><!-- End primaryContent -->
+		
+		<div id="secondaryContent">
+			<a href="img/gallery/thumb_1.jpg" class="lightbox" rel="gallery"><img src="img/gallery/thumb_1.jpg" alt="" title="" /></a>
+			<a href="img/gallery/thumb_2.jpg" class="lightbox" rel="gallery"><img src="img/gallery/thumb_2.jpg" alt="" title="" /></a>
+			<a href="img/gallery/thumb_3.jpg" class="lightbox" rel="gallery"><img src="img/gallery/thumb_3.jpg" alt="" title="" /></a>
+			<a href="img/gallery/thumb_4.jpg" class="lightbox" rel="gallery"><img src="img/gallery/thumb_4.jpg" alt="" title="" /></a>
+		</div><!-- End secondaryContent -->

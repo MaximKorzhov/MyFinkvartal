@@ -1,0 +1,13 @@
+		<div id="primaryContent">			
+
+			<h2>Все новости</h2>
+			    {!disclosure!}
+				{!news!}
+			
+		</div><!-- End primaryContent -->
+		
+		<div id="secondaryContent">
+
+			<script type="text/javascript">var charset='UTF-8';var t=document.getElementsByTagName('meta');for(var i=0; i<t.length; i++){var rg=/charset=["']?([^"']*)/g;if(t[i].content.indexOf('charset')!=-1){charset=rg.exec(t[i].content)[1];break;}}document.write('<script type="text/javascript" src="https://www.rss-script.ru/rss-script.php?charset='+charset+'&rss[]=http%3A%2F%2Fwww.zhkh.su%2Fchannel%2Fall.rss&count=5"><\/script>');</script><noscript>Для просмотра этой RSS ленты требуется поддержка Java Script</noscript>
+
+		</div><!-- End secondaryContent -->

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" title="default" />
+
+	<title>Финские кварталы</title>
+	<meta name="description" content="Your description goes here." />
+	<meta name="keywords" content="your, keywords, here" />
+	<meta name="copyright" content="yourcompany.com" />
+
+	<!-- jQuery -->
+	<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	
+	<!-- jQuery slider plugin -->
+	<script src="js/easySlider1.5.js" type="text/javascript" ></script>
+</head>
+
+
+<body id="home">
+	<div id="wrapper">
+	
+	<div id="header">
+		<!-- The name of your website -->
+		<h1><a href="index.php"><strong>Финские</strong> кварталы</a></h1>
+		<!-- Tagline -->
+		<p class="tagline">Управляющая компания</p>
+		<ul>
+			<!-- Navigation - the current page is highlighted with css class "current". -->						
+			<li {!current_services!}><a href="services.php">Обслуживание <span class="navi-description">Сделать заявку</span></a></li>
+			<li {!current_news!}><a href="news.php">Информация для жильцов <span class="navi-description">Последние изменения</span></a></li>
+			<li {!current_about!}><a href="about_as.php">О компании <span class="navi-description">Общая информация</span></a></li>
+			<li {!current_contacts!}><a href="contacts.php">Контакты <span class="navi-description">Адреса и телефоны</span></a></li>
+		</ul><!-- End navigation -->
+
+		<!-- Search -->
+		<div id="searchbox">
+			<form action="auth_form.php" id="search" method="post">
+				<fieldset>
+					<input type="submit" id="searchSubmit" value="Вход" />					
+				</fieldset>
+			</form>
+		</div><!-- End search -->
+	</div><!-- End header -->
+
+	<div id="contentArea">
+		{!contentArea!}
+	</div><!-- End contentArea -->
+
+	<div id="footerContent">
+		{!footerContent!}
+			
+		<div id="footerLinks">
+			<p><a href="services.php">Обслуживание</a> | <a href="news.php">Информация для жильцов</a> | <a href="about_as.php">О компании</a> | <a href="contacts.php">Контакты</a> | <a href="information_disclosure.php">Раскрытие информации</a></p>
+	
+			<!--<p class="right"> &copy; 2017 ООО "Норд - Капитал"</p>-->
+			<p class="right"> &copy; {!date!} ООО "Норд - Капитал"</p>
+		</div><!-- End footerLinks -->
+	</div><!-- End footerContent -->
+</div><!-- End wrapper -->
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+	<div id="primaryContent">
+
+		<h2>Документация</h2>
+			{!disclosure!}			
+
+	</div><!-- End primaryContent -->
+		
+	<div id="secondaryContent">			
+			
+		<h3>Наши партнёры</h3>
+		<p>Информация о наших партнёрах пока не доступна <a href="#"></a></p>
+		<a href="services.html" class="box">Читать полностью</a>
+			
+			
+	</div><!-- End secondaryContent -->

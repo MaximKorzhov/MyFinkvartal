@@ -1,0 +1,19 @@
+	<div id="primaryContent">	
+		<h2>Мы находимся здесь</h2>
+			<iframe src="https://api-maps.yandex.ru/frame/v1/-/C6qhM03W" width="560" height="400" frameborder="0"></iframe>	
+	</div><!-- End primaryContent -->		
+		
+	<div id="secondaryContent">
+		<h3>Адрес:</h3>
+			<h4>Дом 23 к. 1, дом 23 к. 2<br/> Дер. Лупполово</h4>
+		<h3>Телефон:</h3>
+			<h4>8-921-788-77-81</h4>
+		<h3>E-mail:</h3>
+			<h4>nordkapital@yandex.ru</h4>
+		<h3>Режим работы диспетчера:</h3>
+			<p>понедельник - пятница с 10.00 до 18.00</p>
+			<p>суббота и воскресенье - выходной</p>
+			<h3>Режим работы бухгалтерии:</h3>
+			<p>по всем вопросам писать на E-mail</p>
+				
+	</div><!-- End secondaryContent -->

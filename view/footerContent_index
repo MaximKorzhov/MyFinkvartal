@@ -1,0 +1,19 @@
+	<div class="footerColumn">					
+			<img src="img/promo3.jpg" alt="" title="" />
+			<h4>Важно знать</h4>
+			<p><a>Городские службы</a></p><p><a>Часто задаваемые вопросы</a></p><!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, tempor incididunt. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <a href="http://themeforest.net/item/businexx/29634?ref=myTheme" class="box">Businexx Theme...</a>-->
+		</div><!-- End footerColumn -->
+
+		<div class="footerColumn">
+			<img src="img/promo1.png" alt="" title="" /><!-- Change your own image, size 275x80 -->
+			<h4>Законодательство</h4>
+			<p><a>Федеральные законы</a></p><p><a>Постановления правительства РФ</a></p><p><a>Законодательство Санкт - Петербурга</a></p><!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="#">sed do eiusmod</a> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <a href="#" class="box">Read More...</a>-->
+		</div><!-- End footerColumn -->
+
+		<div class="footerColumn last">
+			<!-- Contact information -->
+			<h5>Адрес:</h5> <p>Ленинградская обл., Всеволожский район, дер. Лупполово,</p><p> дом 23 к. 1, дом 23 к. 2</p><!--улица Деревенская-->
+			<h5>Телефон:</h5> <p>8-921-788-77-81</p>
+			<h5>E-mail:</h5> <p><a href="mailto:nord.kapital@yandex.ru">nord.kapital@yandex.ru</a></p>
+			<!--<a href="contacts.php" class="box">Написать нам</a>-->
+		</div><!-- End footerColumn -->
